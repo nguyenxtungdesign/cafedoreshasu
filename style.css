@@ -1,0 +1,629 @@
+/* font face */
+
+
+@font-face {
+  font-family: hiraginokakugothicW8;
+  src: url(fonts/hiraginokakugothicW8.ttc);
+}
+
+@font-face {
+  font-family: hiraginomincho;
+  src: url(fonts/HiraginoMincho.ttc);
+}
+
+@font-face {
+  font-family: avenirnext;
+  src: url(fonts/AvenirNext.ttc);
+}
+
+@font-face {
+  font-family: dinalternate;
+  src: url(fonts/dinalternatebold.ttf);
+}
+
+body {
+}
+
+header {
+  margin-bottom: 150px;
+}
+
+main {
+    display: flex;
+    justify-content: center;
+    width: 1090px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.space {
+  margin-bottom: 150px;
+}
+
+/* fixed nav & sns */
+
+.nav-bar {
+  position: fixed;
+  top: 40%;
+  left: 20px;
+  z-index: 100;
+}
+
+.nav-bar a {
+  display: block;
+  margin-bottom: 20px;
+  text-decoration: none;
+  font-family: adobe-caslon-pro, serif;
+  font-weight: 600;
+  font-style: normal;
+  font-size: 20px;
+  color: #706256;
+}
+
+#active {
+  text-decoration: underline;
+}
+
+.sns {
+  position: fixed;
+  right: 20px;
+  bottom: 20px;
+  z-index: 99;
+}
+
+.sns li {
+  width: 45px;
+  height: 45px;
+  margin-bottom: 25px;
+  background-image: url(pics/SNS-background.png);
+}
+
+.sns a {
+  display: block;
+  line-height: 45px;
+  text-align: center;
+  text-decoration: none;
+  font-family: adobe-caslon-pro, serif;
+  font-weight: 600;
+  font-style: normal;
+  font-size: 30px;
+  color: #7e7062;
+}
+
+/* in header section-1 */
+
+.hero-catch {
+ position: absolute;
+ top: 30px;
+ left: -200px;
+ font-family: 'hiraginokakugothicW8';
+ font-size: 46px;
+ color: #37210e;
+ text-align: right;
+ line-height: 60px;
+}
+
+#section-1 {
+  display: flex;
+  justify-content: space-between;
+}
+
+.logo {
+  margin-top: 22px;
+  margin-left: 22px;
+  width: 247px;
+  height: 243px;
+}
+
+.hero-visual {
+  position: relative;
+  top: -50px;
+  /* display: flex; */
+  /* justify-content: flex-end; */
+  margin-right: 30px;
+}
+
+/* .video {
+  width: 912px;
+  height: 884px;
+} */
+
+.video video {
+  width: 800px;
+  margin-top: 30px;
+}
+
+/* section-2 cafe nut*/
+
+.section-2 {
+  display: flex;
+  justify-content: center;
+  width: 80%;
+  margin-left: auto;
+  margin-right: auto;
+
+}
+
+.text-wrap {
+  position: relative;
+}
+
+#kodawari {
+  font-family: a-otf-midashi-mi-ma31-pr6n,serif;
+  font-weight: 600;
+  font-style: normal;
+  font-size: 90px;
+  letter-spacing: 6px;
+}
+
+.kodawari-container-1 {
+  margin-top: 60px;
+  font-family: source-han-sans-cjk-ja,sans-serif;
+  font-weight: 200;
+  font-style: normal;
+  color: #665146;
+  font-size: 45px;
+  letter-spacing: 6px;
+
+}
+
+/* .kodawari-container-2 {
+  position: absolute;
+  bottom:0 ;
+  left: 0;
+  font-family: kozuka-gothic-pr6n,sans-serif;
+  font-weight: 400;
+  font-style: normal;
+  font-size: 30px;
+  color: #665146;
+  background-color: #f1f1ed;
+} */
+
+.kodawari-container-2 #first {
+  position: absolute;
+  bottom: 50px ;
+  left: 0;
+  font-family: kozuka-gothic-pr6n,sans-serif;
+  font-weight: 400;
+  font-style: normal;
+  font-size: 30px;
+  color: #665146;
+  background-color: #f1f1ed;
+  width: 570px ;
+  line-height: 40px;
+}
+
+.kodawari-container-2 #second {
+  position: absolute;
+  bottom:0 ;
+  left: 0;
+  font-family: kozuka-gothic-pr6n,sans-serif;
+  font-weight: 400;
+  font-style: normal;
+  font-size: 30px;
+  color: #665146;
+  background-color: #f1f1ed;
+  width: 880px;
+  line-height: 40px;
+}
+
+.cafe-nut {
+
+}
+
+.section-3 {
+  display: flex;
+  margin-left: auto;
+  margin-right: auto;
+  justify-content: center;
+  padding-left: 8%;
+}
+
+.section-4 {
+  width: 70%;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.drink {
+  font-family: kozuka-gothic-pr6n,sans-serif;
+  font-size: 180px;
+  font-weight: lighter;
+  color: #bd7866;
+  text-align: left;
+  letter-spacing: 20px;
+}
+
+.tittle {
+  font-family: adobe-caslon-pro;
+  font-size: 180px;
+  font-weight: 100;
+  color: #d8d8d8;
+  text-align: right;
+  letter-spacing: 10px;
+  position: relative;
+  right: -10%;
+}
+
+.table-container {
+  width: 100%;
+  letter-spacing: 4px;
+}
+
+.kohi {
+  font-family: hiraginomincho;
+  font-size: 18px;
+  font-weight: normal;
+  font-style: normal;
+  color: #564242;
+}
+
+.cafe {
+  font-family: georgia, serif;
+  font-size: 18px;
+  font-weight: normal;
+  font-style: normal;
+  color: #564242;
+}
+
+.price {
+  font-family: kozuka-gothic-pr6n,sans-serif;
+  font-size: 18px;
+  color: #bd7866;
+  text-align: right;
+}
+
+table i {
+  font-size: 20px;
+  color: #564242;
+}
+
+.striped {
+  background-color: #fff5e8;
+}
+
+.table-borderless {
+  width: 100%;
+  line-height: 60px;
+}
+
+.section-5 {
+  width: 70%;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.story-wrapper {
+  display: flex;
+  justify-content: space-between;
+}
+
+.story-wrapper img {
+}
+
+.story-wrapper article {
+  margin-top: 40px;
+  width: 400px;
+}
+
+.story-wrapper h3 {
+  font-family: a-otf-midashi-go-mb31-pr6n,sans-serif;
+  font-weight: 600;
+  font-style: normal;
+  color: #606060;
+  font-size: 40px;
+  text-align: center;
+  margin-bottom: 40px;
+}
+
+
+.story-wrapper p {
+    font-family: kozuka-gothic-pr6n,sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 18px;
+    color: #665146;
+    margin-bottom: 30px;
+}
+
+.story-wrapper a {
+  text-decoration: none;
+  color: #ffffff;
+  font-family: georgia, serif;
+  font-size: 25px;
+
+}
+
+.align-left {
+  display: flex;
+  justify-content: flex-end;
+}
+
+.btn {
+  background-color: #c49c71 !important;
+}
+
+.section-6 {
+  width: 70%;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.cafe-radio {
+  display: flex;
+  justify-content: space-between;
+}
+
+.cafe-radio p {
+  font-family: kozuka-gothic-pr6n,sans-serif;
+  font-weight: 400;
+  font-style: normal;
+  font-size: 21px;
+  color: #665146;
+}
+
+.cafe-radio a {
+  text-decoration: none;
+  color: #ffffff;
+  font-family: georgia, serif;
+  font-size: 25px;
+}
+
+.radio-text-wrapper {
+  padding-top: 10%;
+}
+
+
+.footer-parent {
+  background-color: #f5f5f5;
+  display: flex;
+  justify-content: center;
+}
+
+.footer-logo {
+  margin-top: 30px;
+  margin-bottom: 30px;
+ padding-right: 85px;
+}
+
+.footer-text-wrapper {
+
+  margin-top: auto;
+  margin-bottom: auto;
+  /* padding-top: 100px; */
+  height: 245px;
+
+}
+
+.footer-text-wrapper h3 {
+  font-family: a-otf-midashi-mi-ma31-pr6n,serif;
+  font-weight: 400;
+  font-style: normal;
+  font-size: 30px;
+  letter-spacing: 6px;
+  margin-bottom: 40px;
+}
+
+.footer-text-wrapper p {
+  font-family: dinalternate;
+  font-size: 15px;
+  color: #7c7773;
+}
+
+/* story.html */
+
+.about-wrapper {
+
+}
+
+.about-wrapper h3 {
+  text-align: center;
+  font-family: inherit;
+  font-weight: 600;
+  font-style: normal;
+  font-size: 40px;
+  letter-spacing: 6px;
+  color: #aaaaaa;
+}
+
+.about-wrapper p {
+  text-align: center;
+  font-family: avenirnext;
+  font-weight: 100;
+  letter-spacing: 2px;
+  font-size: 16px;
+  color: #606060;
+  margin-bottom: 40px;
+}
+
+.section-7 {
+
+}
+
+.story-card h3 {
+  font-family: adobe-caslon-pro, serif;
+  font-weight: 450;
+  font-style: normal;
+  font-size: 25px;
+  background-color: #a1cbde;
+  color: #ffffff;
+  padding: 10px;
+  display: inline-block;
+  position: absolute;
+  margin: 0;
+}
+
+.story-banner {
+  position: relative;
+}
+
+.story-mini-banner {
+
+}
+
+.story-open-btn {
+  position: absolute;
+}
+
+.odd h3 {
+top: -26px;
+left: 660px;
+}
+
+.display-none {
+  display: none;
+}
+
+/* Responsive design */
+
+@media screen and (max-width: 680px) {
+
+.mobile-nav, #section-1, .section-2,
+.kodawari-container-2 #second, .kodawari-container-2 #first,
+.text-wrap, .section-3, .story-wrapper, .footer-parent {
+  display: block;
+}
+
+.hero-catch, .kodawari-container-2 #second,
+.kodawari-container-2 #first {
+  position: static;
+}
+
+.nav-bar {
+  display: none;
+}
+
+.logo {
+  width: 111px;
+  height: 109px;
+  margin-left: 10px;
+  margin-top: 10px;
+}
+
+.hero-visual h1 {
+  display: none;
+}
+
+.section-2, .section-3, .section-4, .section-5 {
+  width: 98%;
+}
+
+#section-1 div {
+  display: flex;
+
+}
+
+.h1-mobile {
+  display: block;
+  font-size: 20px;
+  line-height: 25px;
+}
+
+.video {
+  max-width: 912px;
+  height: 9;
+}
+
+.space {
+  margin-bottom: 0;
+}
+
+#kodawari {
+  font-size: 70px;
+}
+
+.kodawari-container-2 {
+  padding-top: 100px;
+  width: 50px;
+}
+
+.kodawari-container-2 #first, .kodawari-container-2 #second,
+.footer-text-wrapper h3 {
+  font-size: 20px;
+}
+
+.cafe-nut {
+  width: 100%;
+}
+
+.kodawari-container-2 #first,
+.kodawari-container-2 #second {
+  width: 100vw;
+}
+
+.section-3 img {
+  width: 100%;
+}
+
+.tittle, .drink {
+  font-size: 50px;
+  right: 0;
+}
+
+.cafe, .kohi, .price,
+.story-wrapper p {
+  font-size: 15px;
+}
+
+.story-wrapper h3 {
+  font-size: 29px;
+}
+.story-wrapper article , .story-wrapper img {
+  width: 400px;
+}
+
+
+.story-wrapper h3 {
+
+}
+
+.sns li {
+  width: 25px;
+  height: 25px;
+  margin-bottom: 15px;
+  background-size: contain;
+}
+
+.sns a {
+  display: block;
+  line-height: 25px;
+  font-weight: 600;
+  font-size: 15px;
+}
+
+.cafe-radio {
+  display: block;
+}
+
+.cafe-radio img {
+  width: 100%;
+}
+
+.footer-logo {
+  display: block;
+  padding-left: 70px;
+  margin: 0 auto;
+}
+
+.footer-text-wrapper {
+  width: 100vw;
+  padding: 30px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+}
+/
